@@ -201,13 +201,17 @@ footer .ft_text p{color: #c4bfbf; font-size: 1.8rem;}
 	.page1 .box_wrap .text h3{font-size: 2.8rem}
 	.page2 h2{font-size: 2.8rem}
 	.page2 .box h3{font-size: 2.4rem;}
-	.title h2{font-size: 2.8rem}
-	.title h3{font-size: 2.2rem;}
-	.page3 .text_wrap .box{flex-direction: column;}
+	.title h2{font-size: 3.0rem}
+	.title h3{font-size: 2.6rem;}
+	.page3 .text_wrap .box{flex-direction: column; width: 100%}
 	.page3 .text_wrap .text{margin-left: 0px; margin-top: 20px;}
 	.page3 .text_wrap .box{margin-bottom: 45px;}
 	.page3 .title{margin-bottom: 80px;}
 	.page4 .title{margin-bottom: 80px;}
 	.page5 .title{margin-bottom: 80px;}
+	.page6 .title{margin-bottom: 80px;}
+	.page7 .title{margin-bottom: 80px;}
+	.title h4 br{display: none;}
+	footer .width{flex-direction: column;}
 }
 @media all and (max-width: 650px){}
