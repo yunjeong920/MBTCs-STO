@@ -192,6 +192,7 @@ footer .ft_text p{color: #c4bfbf; font-size: 1.8rem;}
 	.page1 .box_wrap .text{width: 100%;}
 }
 @media all and (max-width: 768px){
+	.main{height: 500px;}
 	.page2 .box_wrap{flex-wrap: wrap;}
 	.page2 .box{width: 100%;}
 	.main p{font-size: 2.0rem}
