@@ -1,0 +1,38 @@
+@charset "UTF-8";
+
+.width{width: 92%; margin: 0 auto; max-width: 1500px}
+
+nav{padding: 25px 0px; position: fixed; top: 0; left: 0; width: 100%; z-index: 9;}
+.head_menu{display: flex; align-items: center; justify-content: space-between;}
+.head_menu .logo{width: 150px; height: 114px; display: inline-block; background: url('../img/wlogo.png')no-repeat; background-position: center; background-size:cover;}
+.head_menu .pmenu{display: flex; gap:0px 75px; height: 150px; display: flex; justify-content: center; align-items: center;}
+.head_menu .pmenu a{font-size: 1.9rem; font-weight: 500; color: #fff;}
+#header.active{background: #fff;}
+#header.active .head_menu .logo{background: url('../img/clogo.png')no-repeat; background-position: center; background-size:cover;}
+#header.active .head_menu .pmenu a{font-size: 1.9rem; font-weight: 500; color: #000; }
+
+/* 모바일 */
+.mobile_head {width: 100%; height: 80px; display: flex; justify-content: space-between; align-items: center; padding: 0px 15px; display: none; position: fixed; background:#fff; z-index: 99; box-shadow: 0px 1px 3px rgba(0,0,0,0.3);}
+.mobile_head .mobile_logo { width: 90px; }
+.mobile_head .mobile_logo img { width: 100%; }
+#mobile_menu {  display: none; position: fixed; top: 0; right: -75%; width: 75%; background: #fff; z-index: 1000; height: 100vh; overflow-y: scroll; -ms-overflow-style: none; scrollbar-width: none;}
+#mobile_menu::-webkit-scrollbar{display: none;}
+#mobile_menu .mob_logo { width: 100%; padding: 0px 20px; height: 70px; background:#fff;display: flex; justify-content: space-between; align-items: center;}
+#mobile_menu .mob_logo a { width: 100px; }
+#mobile_menu .mob_logo a img { width: 100%; }
+#mobile_menu .mobile_close { font-size: 30px; cursor: pointer; color: #333;}
+#mobile_menu .mob_menu .top_menu {display: flex;justify-content: space-between; align-items: center; padding: 20px 0px;font-size: 17px; margin: 0px 20px; border-bottom: 1px solid #8e8e8e;}
+.mobile_open{font-size: 24px;}
+#mobile_menu .mob_menu .topmenu.on { color: #fff; }
+#mobile_menu .mob_menu .sub_menu { padding: 15px 0px; margin: 0px 20px; border-bottom: 1px solid #ccc; background: #fff; visibility: visible; }
+#mobile_menu .mob_menu .sub_menu a {display: block; color: #333 ;font-size: 15px; padding: 10px; background: #fff;}
+#mobile_menu .mob_menu_btn{display: flex; padding: 10px 0px; margin: 0px 20px; justify-content: space-between;}
+#mobile_menu .mob_menu_btn li{width: 49%;}
+#mobile_menu .mob_menu_btn a{font-size: 17px;  background: #ddd;display: flex; height: 50px; justify-content: center; align-items: center;}
+#mobile_menu .mob_menu_btn a i{font-size: 16px; margin-right: 5px;}
+.mob_bg {  display: none; position: fixed; top: 0; left: 0; width: 100%; height: 100vh; background: rgba(0, 0, 0, 0.5); z-index: 99;}
+
+@media all and (max-width: 1024px){
+  #header { display: none; }
+  .mobile_head{display: flex;}
+}

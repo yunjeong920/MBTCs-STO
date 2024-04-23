@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html lang="ko" dir="ltr">
+  <head>
+    <meta charset="utf-8">
+    <title>MBTCs Asset</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="./img/thum.png">
+    <meta property="og:description" content="MBTCs Asset">
+    <link rel="stylesheet" href="./css/initial.css">
+    <link rel="stylesheet" href="./css/layout.css">
+    <link rel="stylesheet" href="./css/animate.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link
+        href="https://cdn.jsdelivr.net/npm/remixicon@4.1.0/fonts/remixicon.css"
+        rel="stylesheet"
+    />
+    <script src="https://code.jquery.com/jquery-3.7.0.js"></script>
+    <script type="text/javascript" src="./js/menu.js"></script>
+  </head>
+  <body>
+    <nav id="header">
+      <div class="head_menu width">
+        <a href="" class="logo"></a>
+        <ul class="pmenu">
+          <li><a href="#page1" class="topmenu">About</a></li>
+          <li><a href="#page2" class="topmenu">Feature</a></li>
+          <li><a href="#page3" class="topmenu">Overview</a></li>
+        </ul>
+      </div>
+    </nav>
+    <!-- 모바일 메뉴 -->
+    <div class="mobile_head">
+      <div class="mobile_logo">
+        <a href=""><img src="./img/clogo.png" alt=""></a>
+      </div>
+      <div class="mobile_btn">
+        <a href="javascript:" class="mobile_open">
+          <i class="ri-menu-line"></i>
+        </a>
+      </div>
+    </div>
+    <div class="mob_bg"></div>
+    <div id="mobile_menu" class="mobile_menu">
+
+      <div class="mob_logo">
+        <a href=""><img src="./img/wlogo.png" alt="" ></a>
+        <div class="m_lang_wrap">
+          <span class="mobile_close"><i class="ri-close-line"></i></span>
+        </div>
+      </div>
+
+      <div class="mob_menu">
+        <ul>
+          <li class="topli"><a href="#page1" class="top_menu" id="first_btn">About</a></li>
+          <li class="topli"><a href="#page2" class="top_menu" id="second_btn">Feature</a></li>
+          <li class="topli"><a href="#page3" class="top_menu" id="four_btn">Overview</a></li>
+        </ul>
+      </div>
+    </div>
+    <script type="text/javascript">
+$(function() {
+    $(window).on("scroll", function() {
+        if($(window).scrollTop() > 0) {
+            $("#header").addClass("active");
+        } else {
+            //remove the background property so it comes transparent again (defined in your css)
+           $("#header").removeClass("active");
+        }
+    });
+});
+</script>
+
+
+    <div class="main">
+      <div class="width wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+        <ul>
+          <li>STO</li>
+          <span>|</span>
+          <li>Real Estate</li>
+          <span>|</span>
+          <li>NFT</li>
+        </ul>
+        <span><img src="./img/text.png" alt=""></span>
+        <p>Investing in real estate that is easy <br>
+and convenient to start in all buildings worldwide</p>
+      </div>
+    </div>
+
+    <div class="page1 page common" id="page1">
+      <div class="width">
+        <div class="box_wrap">
+          <div class="text wow fadeInRight" data-wow-duration="1.2s" data-wow-offset="150">
+            <h2>MBTCs STO</h2>
+            <h3><b>"A New Paradigm <br>
+            in Real Estate"</b></h3>
+            <h4>Easily diversified real estate investment</h4>
+            <p>In the past, traditional real estate transactions have carried significant
+            risk due to trading entire property ownership. However,
+            MBTCs STO issues real estate ownership in the form of securities,
+            allowing for decentralized investment. Investors receive dividends
+            proportional to their investment, thereby increasing accessibility
+            to real estate investment.</p>
+          </div>
+          <div class="img wow fadeInLeft" data-wow-duration="1.2s" data-wow-offset="150">
+            <img src="./img/img1.png" alt="">
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page2 page common" id="page2">
+      <div class="width">
+        <h2 class="wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">MBTCs STO Feature</h2>
+        <div class="box_wrap">
+          <div class="box wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+            <img src="./img/icon1.png" alt="">
+            <h3>Accessibility</h3>
+            <p>Making real estate investment more
+            accessible by allowing easy participation
+            in what was once a difficult-to-approach
+            market.
+            </p>
+          </div>
+          <div class="box wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150" data-wow-delay=".2s">
+            <img src="./img/icon2.png" alt="">
+            <h3>Liquidity</h3>
+            <p>Real estate ownership can be easily
+            bought and sold on a digital marketplace,
+            providing liquidity to real estate capital akin
+            to stocks.
+            </p>
+          </div>
+          <div class="box wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150" data-wow-delay=".4s">
+            <img src="./img/icon3.png" alt="">
+            <h3>Transparency</h3>
+            <p>Based on blockchain technology,
+            all investment records and real estate
+            operational situations are transparently
+            recorded and disclosed, showcasing
+            the assets I've invested in transparently.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page3 page common"  id="page3">
+      <div class="width">
+        <div class="title wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+          <h2>MBTCs STO Overview</h2>
+          <h3>Main Introducing investment products</h3>
+          <h4>Here's the overview of investment products by type</h4>
+        </div>
+        <div class="box_wrap">
+          <div class="img">
+            <img src="./img/img2.png" alt="">
+          </div>
+          <div class="text_wrap">
+            <div class="box wow fadeInRight" data-wow-duration="1.2s" data-wow-offset="150">
+              <img src="./img/point1.png" alt="" class="pc">
+              <img src="./img/mpoint1.png" alt="" class="mob">
+              <div class="text">
+                <h3><span>1</span>Closed Investment Products</h3>
+                <div><span>·</span><p>Total Return Rate / Total Raised Amount</p></div>
+                <div><span>·</span><p>Initial exposure upon platform entry serves as a reference for investors</p></div>
+              </div>
+            </div>
+            <div class="box wow fadeInRight" data-wow-duration="1.2s" data-wow-offset="150">
+              <img src="./img/point2.png" alt="" class="pc">
+              <img src="./img/mpoint2.png" alt="" class="mob">
+              <div class="text">
+                <h3><span>2</span>Active Investment Products</h3>
+                <div><span>·</span><p>Special Benefits Listed by Product</p></div>
+                <div><span>·</span><p>Total Fundraising Amount / Progress Rate / Deadline</p></div>
+              </div>
+            </div>
+            <div class="box wow fadeInRight" data-wow-duration="1.2s" data-wow-offset="150">
+              <img src="./img/point3.png" alt="" class="pc">
+              <img src="./img/mpoint3.png" alt="" class="mob">
+              <div class="text">
+                <h3><span>3</span>Upcoming Investment Products</h3>
+                <div><span>·</span><p>Upcoming Investment Products</p></div>
+                <div><span>·</span><p>Through the notification subscription feature, investors can receive alerts when the fundraising  for their preferred investment products begins</p></div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page4 page common">
+      <div class="width">
+        <div class="title wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+          <h3>Investment Detail Page</h3>
+          <h4>We provide concise and comprehensive information about investment products.</h4>
+        </div>
+        <div class="box_point">
+          <div class="box_num left">
+            <img src="./img/img3.png" alt="">
+            <span class="po1 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+              <h3><span>1</span>Investment Product Details</h3>
+              <div class="text"><span>·</span><p>Product Name / Product Image</p></div>
+              <div class="text"><span>·</span><p>Achievement Rate / Fundraising -
+  Amount / Duration / Expected Return -
+  Rate / Number of Investors / Repay-
+  ment Period</p></div>
+  <span class="dot"><img src="./img/dot.png" alt=""></span>
+            </span>
+            <span class="po3 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+              <h3><span>3</span>Benefits Overview / <br>
+Expected Returns</h3>
+              <div class="text"><span>·</span><p>Introduction of benefits
+  offered by the product</p></div>
+              <div class="text"><span>·</span><p>Indication of expected
+  returns based on invest-
+  ment amount</p></div>
+  <span class="dot"><img src="./img/dot.png" alt=""></span>
+            </span>
+          </div>
+          <div class="box_num right">
+            <img src="./img/img4.png" alt="">
+            <span class="po2 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+              <h3><span>2</span>Investment Points</h3>
+              <div class="text"><span>·</span><p>Investment Points Based
+   on Commercial Area
+   Analysis</p></div>
+     <span class="dot2"><img src="./img/dot2.png" alt=""></span>
+            </span>
+            <span class="po4 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+              <h3><span>4</span>Product Details / <br>
+Collateral Analysis</h3>
+              <div class="text"><span>·</span><p>Detailed Information of the
+  Product Collateral Type/
+  Appraised Value, etc</p></div>
+  <div class="text"><span>·</span><p>Collateral Structure
+  Information Seniority Amount,
+  Loan Amount, etc.</p></div>
+    <span class="dot2"><img src="./img/dot2.png" alt=""></span>
+            </span>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="page5 page common">
+      <div class="width">
+        <div class="title wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+          <h3>Expected Earnings / Investment Application Page</h3>
+          <h4>We provide information that allows you to preview your investment <br>
+results based on the expected earnings from your investment.</h4>
+        </div>
+        <div class="box_wrap">
+          <img class="bimg" src="./img/img5.png" alt="">
+          <span class="po1 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>1</span>Expected Returns</h3>
+            <div class="text"><span>·</span><p>Calculating Expected Returns
+  Based on Investment Amount </p></div>
+<div class="text"><span>·</span><p>Indicating Amount per
+  Installment, Final Profi</p></div>
+  <span class="dot"><img src="./img/dot3.png" alt=""></span>
+          </span>
+        </div>
+        <div class="box_wrap box_wrap2">
+          <img class="bimg" src="./img/img6.png" alt="">
+          <span class="po2 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>2</span>Apply for Investment</h3>
+            <div class="text"><span>·</span><p>Information for Investment
+Application Display of Deposit
+Balance, Maximum Investable
+Amount, etc</p></div>
+  <span class="dot2"><img src="./img/dot4.png" alt=""></span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="page6 page common">
+      <div class="width">
+        <div class="title wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+          <h3>Investment Management</h3>
+          <h4>We provide your current investment status in a dashboard format.</h4>
+        </div>
+        <div class="box_wrap">
+          <img class="bimg" src="./img/img7.png" alt="">
+          <span class="po1 boxp wow fadeInRight" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>1</span>Display Remaining Deposit</h3>
+            <div class="text"><span>·</span><p>Show My Deposit Balance</p></div>
+<div class="text"><span>·</span><p>Navigate to Deposit
+Recharge Page</p></div>
+  <span class="dot"><img src="./img/dot5.png" alt=""></span>
+          </span>
+          <span class="po2 boxp wow fadeInLeft" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>2</span>Investment Status</h3>
+            <div class="text"><span>·</span><p>Total Amount/Ongoing
+Investment Amount/Closed
+Investment Amount Display</p></div>
+  <span class="dot2"><img src="./img/dot6.png" alt=""></span>
+          </span>
+          <span class="po3 boxp wow fadeInRight" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>3</span>My Investment Limit</h3>
+            <div class="text"><span>·</span><p>Display Investment Limit</p></div>
+  <span class="dot"><img src="./img/dot5.png" alt=""></span>
+          </span>
+          <span class="po4 boxp wow fadeInLeft" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>4</span>Current Ongoing
+Investment Summary</h3>
+            <div class="text"><span>·</span><p>Cumulative Investment
+Amount/Cumulative Repayment
+Amount / Expected Earnings/
+ROI Display</p></div>
+  <span class="dot2"><img src="./img/dot6.png" alt=""></span>
+          </span>
+          <span class="po5 boxp wow fadeInRight" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>5</span>Composition of
+Investment Products
+Ratio</h3>
+            <div class="text"><span>·</span><p>Display Investment
+Composition Ratio by Product</p></div>
+  <span class="dot"><img src="./img/dot5.png" alt=""></span>
+          </span>
+          <span class="po6 boxp wow fadeInLeft" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>6</span>Investment History</h3>
+            <div class="text"><span>·</span><p>Investment History</p></div>
+            <div class="text"><span>·</span><p>Detailed investment records up
+  to the present</p></div>
+            <div class="text"><span>·</span><p>Display of investment date,
+  product name, ROI, repayment
+  period, investment amount,
+  repayment status</p></div>
+            <div class="text"><span>·</span><p>Excel Download Available</p></div>
+  <span class="dot2"><img src="./img/dot6.png" alt=""></span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <div class="page common page7">
+      <div class="width">
+        <div class="title">
+          <h3>My Page</h3>
+          <h4>We provide account information and usage guides related to MBTCs STO.</h4>
+        </div>
+        <div class="box_wrap">
+          <img class="bimg" src="./img/img8.png" alt="">
+          <span class="po1 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>1</span>Current status of
+deposits and ratings</h3>
+            <div class="text"><span>·</span><p>Current Status of My Deposit
+  (Investable Amount)</p></div>
+<div class="text"><span>·</span><p>My current rating status and
+  a guide to the rating rise</p></div>
+  <span class="dot"><img src="./img/dot2.png" alt=""></span>
+          </span>
+          <span class="po2 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>2</span>My Page Details tab</h3>
+            <div class="text"><p>Go to each detail page</p></div>
+            <div class="text"><span>·</span><p>Current status of NFTs/
+investments with prohibited
+earnings/deposits</p>
+</div>
+  <span class="dot2"><img src="./img/dot.png" alt=""></span>
+          </span>
+          <span class="po3 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>3</span>My Activity Details tab</h3>
+            <div class="text"><p>Go to each detail page</p></div>
+            <div class="text"><span>·</span><p>Points/Coupons/Like/Contact
+Details</p></div>
+  <span class="dot2"><img src="./img/dot.png" alt=""></span>
+          </span>
+          <span class="po4 boxp wow fadeInup" data-wow-duration="1.2s" data-wow-offset="150">
+            <h3><span>4</span>User's Guide and
+Settings</h3>
+<div class="text"><p>Go to each detail page</p></div>
+            <div class="text"><span>·</span><p>Notice/Usage Guide/
+ Contact/Settings</p></div>
+  <span class="dot2"><img src="./img/dot.png" alt=""></span>
+          </span>
+        </div>
+      </div>
+    </div>
+
+    <footer>
+      <div class="width">
+        <img src="./img/flogo.png" alt="">
+        <div class="ft_text">
+          <p>COPYRIGHT 2024 MBTCs. ALL RIGHTS RESERVED.</p>
+          <p>mbtcs.offical@gmail.com</p>
+        </div>
+      </div>
+    </footer>
+    <script type="text/javascript" src="./js/common.js"></script>
+    <script type="text/javascript" src="./js/wow.min.js"></script>
+    <script>
+    	new WOW().init();
+    </script>
+  </body>
+</html>

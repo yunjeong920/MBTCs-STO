@@ -1,0 +1,212 @@
+@charset "UTF-8";
+
+.main{height: 1100px; background: url('../img/visual.png')no-repeat; background-size: cover; background-position: center;}
+.width{width: 90%; max-width: 1500px; margin: 0 auto;}
+.common{padding: 120px 0px}
+
+.main .width{display: flex; flex-direction: column; height: 100%; justify-content: center; align-items: center;}
+.main ul{display: flex; justify-content: center; align-items: center; background: rgba(0,0,0,0.38); padding: 10px 10px; border: 1px solid #c6a78e; margin-bottom: 20px}
+.main ul li{padding: 0px 30px; font-size: 2.0rem; color: #c6a78e;}
+.main ul span{font-size: 2.0rem; color: #c6a78e;}
+.main p{margin-top: 10px; font-size: 3.8rem; color: #fff; font-family: 'NanumMyeongjo'; text-align: center; text-transform: uppercase;}
+
+.page1 .box_wrap{display: flex; gap:30px 0px; justify-content: space-between; align-items: center;}
+.page1 .box_wrap .text{width: 45%;}
+.page1 .box_wrap .text h2{font-size: 5.5rem; color: #c6a78e; font-weight:400;  font-family: 'NanumMyeongjo';}
+.page1 .box_wrap .text h3{font-size: 5.5rem; font-family: 'NanumMyeongjo'; margin-bottom: 70px;}
+.page1 .box_wrap .text h4{font-size: 3.8rem; font-weight: 500; font-family: 'NanumMyeongjo'; margin-bottom: 10px}
+.page1 .box_wrap .text p{font-size: 2.3rem; font-weight: 200; line-height: 140%;}
+.page1 .box_wrap .img{width: 50%;}
+.page1 .box_wrap .img img{width: 100%}
+
+.page2{background: #2c2c2c;}
+.page2 h2{text-align: center; color: #fff; font-size: 5.0rem; font-weight: bold; margin-bottom: 80px; font-family: 'NanumMyeongjo';}
+.page2 .box_wrap{display: flex; gap:30px 2%;}
+.page2 .box{width: 32%; text-align: center; padding: 70px 30px; border: 1px solid #c6a78e;}
+.page2 .box h3{text-align: center; font-size: 4.2rem; color: #c6a78e;  font-family: 'NanumMyeongjo'; font-weight: 400; margin-top: 45px}
+.page2 .box p{font-size: 2.1rem; color: #fff; line-height: 135%; text-align: center; margin-top: 20px}
+
+.title{text-align: center; }
+.title h2{ font-size: 5.0rem; font-weight: bold; font-family: 'NanumMyeongjo'; margin-bottom: 65px;}
+.title h3{padding-bottom: 5px; border-bottom: 2px solid #000; font-size: 3.0rem; font-weight: bold; display: inline-block; margin-bottom: 20px;}
+.title h4{font-size: 2.4rem; font-weight: 200;}
+
+.page3 .width{position: relative;}
+.page3 .title{text-align: center; margin-bottom: 120px}
+.page3 .box_wrap{display: flex; align-items: center;}
+.page3 .box_wrap .img{width: 52%; box-shadow: 0px 0px 32px rgba(0,0,0,0.25)}
+.page3 .box_wrap .img img{width: 100%}
+.page3 .text_wrap{position: absolute; width: 60%; right: 0; top: 288px;}
+.page3 .text_wrap .box{display: flex; align-items: center; margin-bottom: 60px;}
+.page3 .text_wrap .text{margin-left: 15px}
+.page3 .text_wrap .text h3{font-size: 2.5rem;  color: #c6a78e;font-family: 'NanumMyeongjo';font-weight: 600; display: flex; align-items: center; margin-bottom: 5px}
+.page3 .text_wrap .text h3 span{min-width: 30px; height: 30px; border-radius: 50%; margin-right: 10px; display: inline-block; background: #c6a78e; font-family: 'Pretendard'; font-size: 1.6rem; color: #fff; text-align: center; line-height: 32px}
+.page3 .text_wrap .text div{font-size: 1.8rem; display: flex; font-weight: 300;}
+.page3 .text_wrap .text div span{margin-right: 7px}
+
+.page4{background: #f3ebe4;}
+.page4 .title{margin-bottom: 130px}
+.box_point{display: flex; justify-content: space-between;}
+.box_point .right{margin-top: 270px}
+.box_num img{box-shadow: 0px 0px 32px rgba(0,0,0,0.25); width: 80%}
+.box_num{position: relative; width: 50%;}
+.box_num.right{text-align: right;}
+.boxp{background: #c9a485; border-radius: 5px; box-shadow: 0px 3px 8px rgba(0,0,0,0.25); display: inline-block; padding: 30px 30px}
+.boxp h3{font-size: 2.4rem; font-family: 'NanumMyeongjo'; color: #fff; display: flex; align-items: flex-start; text-align: left; margin-bottom: 10px}
+.boxp h3 span{min-width: 30px; height: 30px; border-radius: 50%; margin-right: 10px; display: inline-block; background: #fff;  font-family: 'Pretendard'; font-size: 1.6rem; color: #c9a485;; text-align: center; line-height: 32px}
+.boxp .text{font-size: 1.6rem; display: flex; font-weight: 400; color: #fff; text-align: left; margin-top: 5px}
+.boxp .text span{margin-right: 7px}
+.boxp .dot{position: absolute; top: 40px; left: -10px}
+.boxp .dot2{position: absolute; top: 40px; right: -10px}
+.boxp .dot img{width: auto; box-shadow: none;}
+.box_num .po1{width: 375px; position: absolute; top: 20px; right: -240px;}
+.box_num .po2{width: 285px; position: absolute; top: 10px; left: -142px;}
+.box_num .po3{width: 285px; position: absolute; top: 540px; right: -143px;}
+.box_num .po4{width: 285px; position: absolute; top: 555px; left: -142px;}
+
+.page5{padding-bottom: 530px}
+.page5 .width{position: relative;}
+.page5 .title{margin-bottom: 130px}
+.page5 .box_wrap{width: 60%; position: relative;}
+.page5 .box_wrap2{width: 60%; position: absolute; right: 0; top: 65%;}
+.page5 .box_wrap .bimg{width: 100%;}
+.page5 .box_wrap2 .bimg{width: 100%;}
+.page5 .box_wrap .po1{width: 305px; position: absolute; top: 130px; right: -310px}
+.page5 .box_wrap .po1 .dot{position: absolute; top: 40px; left: -50px}
+.page5 .box_wrap2 .po2{width: 315px; position: absolute; bottom: 180px; left: -320px}
+.page5 .box_wrap2 .po2 .dot2{position: absolute; top: 40px; right: -145px}
+
+
+.page6{background: #f3ebe4;}
+.page6 .width{position: relative;}
+.page6 .title{margin-bottom: 130px}
+.page6 .box_wrap{width: 50%; margin: 0 auto;}
+.page6 .box_wrap .bimg{width: 100%; box-shadow: 0px 0px 32px rgba(0,0,0,0.25)}
+.page6 .boxp{width: 330px; position: absolute;}
+.page6 .po1{left:35px; top: 29%}
+.page6 .boxp .dot{right: -45px; left: initial;}
+.page6 .boxp .dot2{right: initial; left: -42px}
+.page6 .po2{right:35px; top: 30%;}
+.page6 .po3{left:35px; top: 47%}
+.page6 .po4{right:35px; top: 50%}
+.page6 .po5{left:35px; top: 65%}
+.page6 .po6{right:35px; top: 80%;}
+
+.page7 .width{position: relative;}
+.page7 .title{margin-bottom: 130px}
+.page7 .box_wrap{width: 50%; margin: 0 auto;}
+.page7 .box_wrap .bimg{width: 100%; box-shadow: 0px 0px 32px rgba(0,0,0,0.25)}
+.page7 .boxp{width: 330px; position: absolute;}
+.page7 .po1{left:35px; top: 32%}
+.page7 .boxp .dot{right: -20px; left: initial;}
+.page7 .boxp .dot2{right: initial; left: -20px}
+.page7 .po2{right:35px; top: 30%}
+.page7 .po3{right:35px; top: 50%}
+.page7 .po4{right:35px; top: 76%}
+
+footer{background: #0c0d0f; padding: 50px 0px}
+footer .width{display: flex; align-items: center; gap: 25px 3%;}
+footer .ft_text p{color: #c4bfbf; font-size: 1.8rem;}
+
+.pc{display: block !important;}
+.mob{display: none !important;}
+
+@media all and (max-width: 900px){
+	.pc{display: none !important;}
+	.mob{display: block !important;}
+}
+
+
+@media all and (max-width: 1400px){
+	html{font-size: 52% !important;}
+	.page3 .text_wrap img{width: 300px}
+}
+@media all and (max-width: 1200px){
+	.box_point{flex-direction: column;}
+	.box_num{width: 65%;}
+	.box_point .right{margin: 0 0 0 auto; margin-top: 100px}
+	.box_num .po1{right: -246px}
+	.box_num .po3{right: -246px; width: 375px}
+	.box_num .po2{width: 375px; left: -245px}
+	.box_num .po4{width: 375px; left: -245px}
+	.page5 .box_wrap2{top: 73%;}
+	.boxp{padding: 20px;}
+	.page6 .po1{left: -30px;}
+	.page6 .po3{left: -30px;}
+	.page6 .po5{left: -30px;}
+	.page6 .po2{right: -30px;}
+	.page6 .po4{right: -30px;}
+	.page6 .po6{right: -30px;}
+}
+@media all and (max-width: 1024px){
+	.main{height: 700px;}
+	.main span{display: block; text-align: center;}
+	.main span img{width: 80%;}
+	.main ul li{font-size: 1.6rem;}
+	.main ul span{font-size: 1.6rem;}
+	.main p{font-size: 2.6rem}
+	.page1 .box_wrap .text h2{font-size: 3.4rem}
+	.page1 .box_wrap .text h3{font-size: 3.4rem; margin-bottom: 40px}
+	.page1 .box_wrap .text h4{font-size: 2.4rem;}
+	.page1 .box_wrap .text p{font-size: 1.8rem}
+	.page2 h2{font-size: 3.4rem;}
+	.page2 .box{padding: 40px 15px}
+	.page2 .box h3{margin-top: 20px; font-size: 3.0rem}
+	.page2 .box img{width: 80px;}
+	.page2 .box p{font-size: 1.6rem;}
+	.title h2{font-size: 3.4rem; margin-bottom: 35px;}
+	.title h3{font-size: 2.4rem;}
+	.title h4{font-size: 1.8rem}
+	.page3 .text_wrap .text h3{font-size: 2.2rem;}
+	.page3 .text_wrap .text div{font-size: 1.6rem;}
+	.page3 .text_wrap .box{margin-bottom: 32px;}
+	.page3 .text_wrap{width: 65%; top: 215px;}
+	.boxp h3{font-size: 2.2rem;}
+	.box_num .po1{position: initial; width: 100%; margin: 20px 0px;}
+	.box_num .po2{position: initial; width: 100%; margin: 20px 0px;}
+	.box_num .po3{position: initial; width: 100%; }
+	.box_num .po4{position: initial; width: 100%;}
+	.box_num{width: 100%;}
+	.box_num img{width: 100%;}
+	.boxp .dot{display: none;}
+	.boxp .dot2{display: none;}
+	.page5 .box_wrap{width: 100%; margin-bottom: 100px}
+	.page5 .box_wrap2{width: 100%; position: initial; margin-bottom: 0px;}
+	.page5 .box_wrap .po1{position: initial; width: 100%; margin-top: 20px;}
+	.page5 .box_wrap .po2{position: initial; width: 100%; margin-top: 20px;}
+	.page5{padding-bottom: 120px}
+	.page6 .box_wrap{width: 100%}
+	.page6 .boxp{position: Initial; width: 100%; margin-top: 20px;}
+	.page7 .box_wrap{width: 100%;}
+	.page7 .boxp{position: Initial; width: 100%; margin-top: 20px;}
+}
+@media all and (max-width: 900px){
+	.page3 .box_wrap .img{width: 100%;}
+	.page3 .text_wrap{position: initial; width: 100%;}
+	.page3 .box_wrap{flex-direction: column; gap: 30px 0px;}
+	.page3 .text_wrap img{width: 220px}
+}
+@media all and (max-width: 850px){
+	.page1 .box_wrap{flex-direction: column-reverse;}
+	.page1 .box_wrap .img{width: 100%;}
+	.page1 .box_wrap .text{width: 100%;}
+}
+@media all and (max-width: 768px){
+	.page2 .box_wrap{flex-wrap: wrap;}
+	.page2 .box{width: 100%;}
+	.main p{font-size: 2.0rem}
+	.main ul li{padding: 0px 18px;}
+	.page1 .box_wrap .text h2{font-size: 2.8rem}
+	.page1 .box_wrap .text h3{font-size: 2.8rem}
+	.page2 h2{font-size: 2.8rem}
+	.page2 .box h3{font-size: 2.4rem;}
+	.title h2{font-size: 2.8rem}
+	.title h3{font-size: 2.2rem;}
+	.page3 .text_wrap .box{flex-direction: column;}
+	.page3 .text_wrap .text{margin-left: 0px; margin-top: 20px;}
+	.page3 .text_wrap .box{margin-bottom: 45px;}
+	.page3 .title{margin-bottom: 80px;}
+	.page4 .title{margin-bottom: 80px;}
+	.page5 .title{margin-bottom: 80px;}
+}
+@media all and (max-width: 650px){}
