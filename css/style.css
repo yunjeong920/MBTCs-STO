@@ -118,7 +118,7 @@ footer .ft_text p{color: #c4bfbf; font-size: 1.8rem;}
 
 
 @media all and (max-width: 1400px){
-	html{font-size: 52% !important;}
+	html{font-size: 55% !important;}
 	.page3 .text_wrap img{width: 300px}
 }
 @media all and (max-width: 1200px){
@@ -195,7 +195,7 @@ footer .ft_text p{color: #c4bfbf; font-size: 1.8rem;}
 	.main{height: 500px;}
 	.page2 .box_wrap{flex-wrap: wrap;}
 	.page2 .box{width: 100%;}
-	.main p{font-size: 2.0rem}
+	.main p{font-size: 1.8rem}
 	.main ul li{padding: 0px 18px;}
 	.page1 .box_wrap .text h2{font-size: 2.8rem}
 	.page1 .box_wrap .text h3{font-size: 2.8rem}
